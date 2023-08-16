@@ -1,0 +1,31 @@
+{
+	"lang":"en",
+	"dir":"ltr",
+	"name":"Gerencia General de Operaciones Puerto Ordaz",
+	"short_name":"GGOPO",
+	"icons": [
+    {
+      "src": "./img/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./img/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+	"description":"Aplicación web progresiva para generar reportes en el Departamento de Control de la Producción",
+	"background_color": "#2b2b2b",
+	"serviceworker":{
+		"src":"sw.js",
+		"scope":"/",
+		"update_via_cache":"none"
+	},
+	"theme_color":"#f0db4f",
+	"orientation": "portrait",
+	"display":"standalone",
+	"start_url":"./?utm_source=web_app_manifest",
+	"scope":"./",
+	"lang":"es-VE"
+}
